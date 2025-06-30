@@ -10,7 +10,7 @@ This project provides a full pipeline for downloading and preparing historical U
 ✅ Extracts and converts debate text into **synthetic, book-style page images** paired with ground truth text  
 ✅ Supports augmentation and "denigration" (noise injection) to simulate historical document imperfections  
 ✅ Designed for OCR model fine-tuning, including projects using TrOCR or LayoutLM  
-⚠️ **Large-scale**: Over 2,000 ZIPs, potentially hundreds of thousands of pages  
+⚠️ **Large-scale** : Over 2,000 ZIPs, potentially hundreds of thousands of pages  
 
 ---
 
@@ -51,7 +51,7 @@ The raw ZIP archives contain HTML-structured parliamentary debates across both h
 * Fine-tunes a TrOCR model on the synthetic image-text pairs
 * Supports the HuggingFace `Seq2SeqTrainer` setup
 * Includes options for mixed precision training, logging, evaluation, and model saving
-* Accepts CLI args: `--dataset_path`, `--output_dir`, `--batch_size`, `--num_train_epochs`, `--fp16`, etc.
+* Accepts CLI args: `--dataset_path` , `--output_dir` , `--batch_size` , `--num_train_epochs` , `--fp16` , etc.
 * Generates a fine-tuned OCR model ready for inference on historical scans
 
 ---
